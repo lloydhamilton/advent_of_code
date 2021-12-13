@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "advent_of_code"
+version = "0.1.0"
+description = ""
+authors = ["Lloyd Hamilton <lloydhamilton1991@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.9.7"
+numpy = "^1.21.4"
+pandas = "^1.3.5"
+findpeaks = "^2.4.0"
+ipykernel = "^6.6.0"
+opencv-python = "^4.5.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
